@@ -1,0 +1,12 @@
+[programs.localnet]
+counter = "9EoiyC3P15LGQs6ZyLeY9a9FmrRMENUyHfQ2W9PkhYxV"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/weilun/.config/solana/wallet.json"
+
+[scripts]
+test = "mocha -t 1000000 tests/"
